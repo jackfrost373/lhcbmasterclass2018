@@ -27,7 +27,7 @@ def TimeOscFit(offset = 0.0, amplitude = 40.0, period = 0.002, phase = 0.0,
 
    # Not sure how to construct (formula)weighted histograms from the RooDataSet... So just recreate!
    #f = TFile.Open("/data/stu18q1t/LHCbMasterclass2018/data/data.root")
-   f = TFile.Open("./data/data.root")
+   f = TFile.Open("/project/bfys/jdevries/lhcbmasterclass2018/data/data.root")
    t = f.Get("DecayTree")
 
    #if(useOmegaWeights) :

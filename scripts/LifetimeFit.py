@@ -3,7 +3,7 @@ def LifetimeFit(Bs_Mass, Ds_Mass, Bs_Lifetime, Bs_fitRange):
       return
 
    #f = TFile.Open("/data/stu18q1t/LHCbMasterclass2018/data/data.root")
-   f = TFile.Open("./data/data.root")
+   f = TFile.Open("/project/bfys/jdevries/lhcbmasterclass2018/data/data.root")
    t = f.Get("DecayTree")
 
    cDecay = TCanvas("cdecay","cdecay")

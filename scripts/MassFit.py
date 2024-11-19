@@ -7,7 +7,7 @@ def MassFit(particle, Bs_Mass, Ds_Mass, Bs_Lifetime) :
    print("************************************")
 
    #f = TFile.Open("/data/stu18q1t/LHCbMasterclass2018/data/data.root")
-   f = TFile.Open("./data/data.root")
+   f = TFile.Open("/project/bfys/jdevries/lhcbmasterclass2018/data/data.root")
    t = f.Get("DecayTree")
 
    cMass = TCanvas("cMass_"+particle, "cMass"+particle)
